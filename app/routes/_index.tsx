@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import BodyContent from "~/components/BodyContent";
+import FeaturedUsecase from "~/components/FeaturedUsecase";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import HeroHorizontal from "~/components/HeroHorizontal";
@@ -29,11 +30,15 @@ export default function Index() {
         </SectionWrapper>
 
         <SectionWrapper>
-          <HeroHorizontal />
+          <LogoCloud />
         </SectionWrapper>
 
         <SectionWrapper>
-          <LogoCloud />
+          <FeaturedUsecase />
+        </SectionWrapper>
+
+        <SectionWrapper>
+          <HeroHorizontal />
         </SectionWrapper>
 
         <Footer />
